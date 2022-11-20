@@ -5,4 +5,9 @@ app.get('/', function (req, res) {
   res.send('Hello World')
 })
 
+app.get('/home', function (req, res) {
+    res.send('Hello')
+  })
+
+
 app.listen(3000)
